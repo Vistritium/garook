@@ -19,7 +19,7 @@ Example xml:
     </food>
 </breakfast_menu>
 ```
-
+Scala:
 ```
     import scala.util.Using
     import scala.jdk.CollectionConverters._
