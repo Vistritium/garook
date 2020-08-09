@@ -1,5 +1,6 @@
 ThisBuild / organization := "io.github.vistritium"
 ThisBuild / scalaVersion := "2.13.3"
+ThisBuild / name := "garook"
 ThisBuild / description := "Library to process xml elements one by one"
 ThisBuild / licenses := List("Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
 ThisBuild / homepage := Some(url("https://github.com/Vistritium/garook"))
