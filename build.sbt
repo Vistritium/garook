@@ -13,12 +13,7 @@ ThisBuild / developers := List(Developer(
   url("https://github.com/Vistritium")
 ))
 
-ThisBuild / publishTo := Some(
-  if (isSnapshot.value)
-    Opts.resolver.sonatypeSnapshots
-  else
-    Opts.resolver.sonatypeStaging
-)
+ThisBuild / publishTo := sonatypePublishToBundle.value
 
 lazy val root = (project in file("."))
   .enablePlugins(GitVersioning)
