@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+    </component>
+    <component name="ChangeListManager">
+        <list default="true" id="4a0b8c35-665d-47f9-b16a-da3dab2f25c3" name="Default Changelist" comment="" />
+        <option name="SHOW_DIALOG" value="false" />
+        <option name="HIGHLIGHT_CONFLICTS" value="true" />
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+        <option name="LAST_RESOLUTION" value="IGNORE" />
+    </component>
+    <component name="CodeStyleSettingsInfer">
+        <option name="done" value="true" />
+    </component>
+    <component name="ExternalProjectsData">
+        <projectState path="$PROJECT_DIR$">
+            <ProjectState />
+        </projectState>
+    </component>
+    <component name="ExternalProjectsManager">
+        <system id="SBT">
+            <state>
+                <projects_view>
+                    <tree_state>
+                        <expand>
+                            <path>
+                                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                                <item name="garook-root" type="f1a62948:ProjectNode" />
+                            </path>
+                        </expand>
+                        <select />
+                    </tree_state>
+                </projects_view>
+            </state>
+        </system>
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="Class" />
+            </list>
+        </option>
+    </component>
+    <component name="ProjectCodeStyleSettingsMigration">
+        <option name="version" value="1" />
+    </component>
+    <component name="ProjectId" id="1fpJVCWkTL4bD7FZpL753E2W1n5" />
+    <component name="ProjectViewState">
+        <option name="compactDirectories" value="true" />
+        <option name="flattenModules" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+    </component>
+    <component name="PropertiesComponent">
+        <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+        <property name="WebServerToolWindowFactoryState" value="false" />
+        <property name="last_opened_file_path" value="$PROJECT_DIR$/xml/src/test/resources/xmls" />
+        <property name="node.js.detected.package.eslint" value="true" />
+        <property name="node.js.detected.package.tslint" value="true" />
+        <property name="node.js.path.for.package.eslint" value="project" />
+        <property name="node.js.path.for.package.tslint" value="project" />
+        <property name="node.js.selected.package.eslint" value="(autodetect)" />
+        <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    </component>
+    <component name="RecentsManager">
+        <key name="CopyFile.RECENT_KEYS">
+            <recent name="C:\work\projects\garook\xml\src\test\resources\xmls" />
+        </key>
+    </component>
+    <component name="RunManager" selected="ScalaTest.GarookTest.testcases should work">
+        <configuration name="GarookTest.1.xml should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+            <module name="garook-xml" />
+            <option name="allowRunningInParallel" value="false" />
+            <option name="selectedOptions">
+                <set />
+            </option>
+            <option name="testKind" value="Test name" />
+            <option name="testClassPath" value="org.garook.GarookTest" />
+            <option name="testName" value="1.xml should work" />
+            <option name="workingDirectory" value="C:\work\projects\garook" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="GarookTest.testcases should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+            <module name="garook-xml" />
+            <option name="allowRunningInParallel" value="false" />
+            <option name="selectedOptions">
+                <set />
+            </option>
+            <option name="testKind" value="Test name" />
+            <option name="testClassPath" value="org.garook.GarookTest" />
+            <option name="testName" value="testcases should work" />
+            <option name="workingDirectory" value="C:\work\projects\garook" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <recent_temporary>
+            <list>
+                <item itemvalue="ScalaTest.GarookTest.testcases should work" />
+                <item itemvalue="ScalaTest.GarookTest.1.xml should work" />
+            </list>
+        </recent_temporary>
+    </component>
+    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="4a0b8c35-665d-47f9-b16a-da3dab2f25c3" name="Default Changelist" comment="" />
+            <created>1596909122317</created>
+            <option name="number" value="Default" />
+            <option name="presentableId" value="Default" />
+            <updated>1596909122317</updated>
+            <workItem from="1596909123603" duration="10120000" />
+        </task>
+        <servers />
+    </component>
+    <component name="TypeScriptGeneratedFilesManager">
+        <option name="version" value="3" />
+    </component>
+    <component name="WindowStateProjectService">
+        <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596926680961">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596926680961" />
+        <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1596927701701">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927701701" />
+        <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1596927863563">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state width="1877" height="245" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927863563" />
+        <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1596927863563">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state width="1877" height="245" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927863563" />
+        <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1596927863563">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state width="1877" height="245" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927863563" />
+        <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1596927863563">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state width="1877" height="245" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927863563" />
+        <state x="681" y="261" width="585" height="540" key="StructurePopup" timestamp="1596926713518">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state x="681" y="261" width="585" height="540" key="StructurePopup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596926713518" />
+        <state width="498" height="446" key="SwitcherDM" timestamp="1596927674026">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927674026" />
+        <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596927688483">
+            <screen x="0" y="0" width="1920" height="1040" />
+        </state>
+        <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927688483" />
+    </component>
+</project>
