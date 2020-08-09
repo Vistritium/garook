@@ -1,14 +1,29 @@
-ThisBuild / organization := "garook"
+ThisBuild / organization := "io.github.vistritium"
 ThisBuild / scalaVersion := "2.13.3"
-
 ThisBuild / description := "Library to process xml elements one by one"
 ThisBuild / licenses := List("Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
+ThisBuild / homepage := Some(url("https://github.com/Vistritium/garook"))
+ThisBuild / scmInfo := Some(ScmInfo(url("https://github.com/Vistritium/garook"), "https://github.com/Vistritium/garook.git"))
+
+ThisBuild / developers := List(Developer(
+  "Maciej Nowicki",
+  "Maciej Nowicki",
+  "maciej@nowicki.com",
+  url("https://github.com/Vistritium")
+))
+
+ThisBuild / publishTo := Some(
+  if (isSnapshot.value)
+    Opts.resolver.sonatypeSnapshots
+  else
+    Opts.resolver.sonatypeStaging
+)
 
 lazy val root = (project in file("."))
   .enablePlugins(GitVersioning)
   .aggregate(xml)
   .settings(
-    name := "garook-root"
+    name := "garook-root",
   )
 
 lazy val xml = (project in file("xml"))
@@ -22,4 +37,5 @@ lazy val xml = (project in file("xml"))
       "org.scala-lang.modules" %% "scala-xml" % "2.0.0-M1" % "test"
     )
   )
+
 

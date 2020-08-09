@@ -76,7 +76,7 @@
                 <set />
             </option>
             <option name="testKind" value="Test name" />
-            <option name="testClassPath" value="org.garook.GarookTest" />
+            <option name="testClassPath" value="io.github.garook.GarookTest" />
             <option name="testName" value="1.xml should work" />
             <option name="workingDirectory" value="C:\work\projects\garook" />
             <method v="2">
@@ -90,7 +90,7 @@
                 <set />
             </option>
             <option name="testKind" value="Test name" />
-            <option name="testClassPath" value="org.garook.GarookTest" />
+            <option name="testClassPath" value="io.github.garook.GarookTest" />
             <option name="testName" value="testcases should work" />
             <option name="workingDirectory" value="C:\work\projects\garook" />
             <method v="2">

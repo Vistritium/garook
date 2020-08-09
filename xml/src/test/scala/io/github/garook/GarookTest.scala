@@ -1,4 +1,4 @@
-package org.garook
+package io.github.garook
 
 import java.io.ByteArrayInputStream
 

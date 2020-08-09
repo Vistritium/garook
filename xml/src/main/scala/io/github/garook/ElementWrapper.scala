@@ -1,4 +1,4 @@
-package org.garook
+package io.github.garook
 
 import javax.xml.stream.XMLStreamConstants
 import javax.xml.stream.events.{EndElement, StartElement, XMLEvent}
