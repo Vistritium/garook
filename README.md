@@ -2,9 +2,10 @@
 Scala library to easily and efficiently process large XMLs with repetatively occuring elements.
 The library is using Stax2 to parse and stream xml.
 
-Following example demonstrated usage of the library with support of [scala-xml](https://github.com/scala/scala-xml) to read repetative elements.
-
 ## Quickstart
+
+Following example demonstrates usage with support of [scala-xml](https://github.com/scala/scala-xml) to read repetative elements.
+
 Example xml:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
