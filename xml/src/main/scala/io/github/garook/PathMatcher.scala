@@ -15,7 +15,7 @@ class ExactLocalPathMatcher(path: String) extends PathMatcher {
 class RegularExpressionLocalMatcher(expression: String) extends PathMatcher {
   private val regexp = expression.r
 
-  override def matchPath(path: List[QName]): Boolean = regexp.matches(PathMatcher.toLocalStringPath(path))
+  override def matchPath(path: List[QName]): Boolean = regexp.findFirstMatchIn(PathMatcher.toLocalStringPath(path)).isDefined
 }
 
 

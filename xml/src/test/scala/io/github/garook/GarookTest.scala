@@ -4,11 +4,10 @@ import java.io.ByteArrayInputStream
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-import scala.jdk.CollectionConverters._
+import collection.JavaConverters._
 import scala.xml.XML
 import org.scalatest.matchers.should.Matchers._
-
-import scala.util.Using
+import resource._
 
 class GarookTest extends AnyFlatSpec {
 
@@ -51,16 +50,16 @@ class GarookTest extends AnyFlatSpec {
   "3.xml" should "work" in {
 
     val garook = new Garook
-    val names = (Using(garook.parse(
+    val names = managed(garook.parse(
       getClass.getResourceAsStream(s"/xmls/3.xml"),
       new RegularExpressionLocalMatcher(""".*\.component""")
-    )) { iterator =>
+    )).acquireAndGet { iterator =>
       iterator.asScala
         .map(xml => XML.load(new ByteArrayInputStream(xml)))
         .flatMap { xml =>
           xml.attribute("name").getOrElse(Seq.empty).headOption.map(_.text)
         }.toSet
-    }).get
+    }
 
     names should contain only ("FileTemplateManagerImpl", "RunManager", "TypeScriptGeneratedFilesManager", "AutoImportSettings", "ProjectCodeStyleSettingsMigration", "ExternalProjectsManager", "ChangeListManager", "RecentsManager", "ProjectViewState", "SpellCheckerSettings", "TaskManager", "PropertiesComponent", "CodeStyleSettingsInfer", "WindowStateProjectService", "ExternalProjectsData", "ProjectId")
 
