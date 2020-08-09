@@ -43,5 +43,5 @@ Belgian Waffles, Strawberry Belgian Waffles
 ```
 ### Dependency
 ```
-libraryDependencies += "io.github.vistritium" %% "garook-root" % "0.2"
+libraryDependencies += "io.github.vistritium" %% "garook-xml" % "0.2"
 ```
