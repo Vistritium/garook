@@ -1,5 +1,5 @@
 # Garook
-Scala library to easily and efficiently process large XMLs with repetatively occuring elements.
+Scala library to easily and efficiently process large xmls with repetatively occuring elements.
 The library is using Stax2 to parse and stream xml.
 
 ## Quickstart
@@ -40,4 +40,8 @@ Scala:
 prints
 ```
 Belgian Waffles, Strawberry Belgian Waffles
+```
+### Dependency
+```
+libraryDependencies += "io.github.vistritium" %% "garook-xml" % "0.2"
 ```
