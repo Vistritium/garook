@@ -1,4 +1,4 @@
-# garook
+# Garook
 Scala library to easily and efficiently process large XMLs with repetatively occuring elements.
 The library is using Stax2 to parse and stream xml.
 
