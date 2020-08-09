@@ -41,3 +41,7 @@ prints
 ```
 Belgian Waffles, Strawberry Belgian Waffles
 ```
+### Dependency
+```
+libraryDependencies += "io.github.vistritium" % "garook-root_2.13" % "0.2"
+```
