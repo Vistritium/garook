@@ -7,7 +7,7 @@ The library is using Stax2 to parse and stream xml.
 Following example demonstrates usage with support of [scala-xml](https://github.com/scala/scala-xml) to read repetative elements.
 
 Example xml:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <breakfast_menu>
     <food>
@@ -21,7 +21,7 @@ Example xml:
 </breakfast_menu>
 ```
 Scala:
-```
+```scala
     import scala.util.Using
     import scala.jdk.CollectionConverters._
     
